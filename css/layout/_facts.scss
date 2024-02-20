@@ -1,0 +1,19 @@
+.facts{
+  background-color: #3dd5f3;
+  width: 100%;
+
+  &__title{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  &__link{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
