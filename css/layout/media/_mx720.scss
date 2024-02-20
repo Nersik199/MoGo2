@@ -1,0 +1,61 @@
+.header{
+	&__subtitle{
+		font-size: 45px;
+	}
+	
+	&__title{
+		font-size: 79px;
+		line-height: 81px;
+		&::after{
+			bottom: -37px;
+			left: 42%;
+		}
+	}
+	
+	button.owl-dot{
+		width: 120px;
+		&::before{
+			width: 50px;
+		}
+		
+		&:nth-child(-n + 4){
+			&::after{
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+.feature{
+	height: 626px;
+	&__title{
+		margin-bottom: 50px;
+	}
+	&__img{
+		
+		img:nth-child(1){
+			width: 315px;
+			height: 500px;
+			object-fit: contain;
+		}
+		img:nth-child(2){
+			right: -74%;
+			width: 174px;
+			height: 505px;
+			object-fit: contain;
+		}
+	}
+}
+
+.footer{
+	.instagram__img {
+		padding: 0;
+	}
+	.instagram__title{
+		margin-left: 0;
+	}
+	
+	&__block{
+		margin-bottom: 20px;
+	}
+}
